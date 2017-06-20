@@ -1,0 +1,73 @@
+body {
+	background-color: #232323;
+	margin: 0;
+	font-family: "Montserrat", "Avenir", "Arial";
+}
+
+.square {
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;    /*makes them go in-line*/
+	margin: 1.666%;
+	border-radius: 15%;
+	transition: background-color 0.6s;   /*Tells CSS how to handle background-color transitions with buttons*/
+	-webkit-transition: background-color 0.6s;   /*Makes transitions more friendly for other browsers*/
+	-moz-transition: background-color 0.6s;;   /*Makes transitions more friendly for other browsers*/
+}
+
+#container {
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+h1 {
+	text-align: center;
+	line-height: 1.1;
+	font-weight: normal;
+	color: white;
+	background-color: steelblue;
+	margin: 0;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+#colorDisplay {
+	font-size: 200%;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+#stripe {
+	background-color: white;
+	height: 30px;
+	text-align: center;
+}
+
+.selected {
+	color: white;
+	background-color: steelblue;
+}
+
+button {
+	border: none;
+	background-color: white;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	transition: all 0.3s;     /*Tells CSS how to handle any and all transitions with buttons*/
+	-webkit-transition: background-color 0.3s;   /*Makes transitions more friendly for other browsers*/
+	-moz-transition: background-color 0.3s;;   /*Makes transitions more friendly for other browsers*/
+	outline: none;   /*stops the browser from putting the blue highlight/focus box around the button when we click it*/
+}
+
+button:hover {
+	color: white;
+	background-color: steelblue;
+}
