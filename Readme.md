@@ -1,0 +1,2 @@
+# RGB Guessing Game
+A simple website to entertain and train the user on identifying RGB colors. This website was made as part of Colt Steele's [Udemy tutorial](https://www.udemy.com/the-web-developer-bootcamp/learn/v4/).
